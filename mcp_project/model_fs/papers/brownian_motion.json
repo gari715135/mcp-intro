@@ -1,0 +1,48 @@
+{
+  "1705.01726v1": {
+    "title": "Spectral representation of one-dimensional Liouville Brownian Motion and Liouville Brownian excursion",
+    "authors": [
+      "Xiong Jin"
+    ],
+    "summary": "In this paper we apply the spectral theory of linear diffusions to study the\none-dimensional Liouville Brownian Motion and Liouville Brownian excursions\nfrom a given point. As an application we estimate the fractal dimensions of\nlevel sets of one-dimensional Liouville Brownian motion as well as various\nprobabilistic asymptotic behaviours of Liouville Brownian motion and Liouville\nBrownian excursions.",
+    "pdf_url": "http://arxiv.org/pdf/1705.01726v1",
+    "published": "2017-05-04"
+  },
+  "math/0503211v3": {
+    "title": "A set-indexed fractional Brownian motion",
+    "authors": [
+      "E. Herbin",
+      "E. Merzbach"
+    ],
+    "summary": "We define and prove the existence of a fractional Brownian motion indexed by\na collection of closed subsets of a measure space. This process is a\ngeneralization of the set-indexed Brownian motion, when the condition of\nindependance is relaxed. Relations with the Levy fractional Brownian motion and\nwith the fractional Brownian sheet are studied. We prove stationarity of the\nincrements and a property of self-similarity with respect to the action of\nsolid motions. Moreover, we show that there no \"really nice\" set indexed\nfractional Brownian motion other than set-indexed Brownian motion. Finally,\nbehavior of the set-indexed fractional Brownian motion along increasing paths\nis analysed.",
+    "pdf_url": "http://arxiv.org/pdf/math/0503211v3",
+    "published": "2005-03-11"
+  },
+  "math/0509720v1": {
+    "title": "Dyson's Brownian motions, intertwining and interlacing",
+    "authors": [
+      "Jon Warren"
+    ],
+    "summary": "A family of reflected Brownian motions is used to construct Dyson's process\nof non-colliding Brownian motions. A number of explicit formulae are given,\nincluding one for the distribution of a family of coalescing Brownian motions.",
+    "pdf_url": "http://arxiv.org/pdf/math/0509720v1",
+    "published": "2005-09-30"
+  },
+  "1210.1391v1": {
+    "title": "Fake Exponential Brownian Motion",
+    "authors": [
+      "David G Hobson"
+    ],
+    "summary": "We construct a fake exponential Brownian motion, a continuous martingale\ndifferent from classical exponential Brownian motion but with the same marginal\ndistributions, thus extending results of Albin and Oleszkiewicz for fake\nBrownian motions. The ideas extend to other diffusions.",
+    "pdf_url": "http://arxiv.org/pdf/1210.1391v1",
+    "published": "2012-10-04"
+  },
+  "1604.03157v2": {
+    "title": "Asymptotic behavior of weighted power variations of fractional Brownian motion in Brownian time",
+    "authors": [
+      "Raghid Zeineddine"
+    ],
+    "summary": "We study the asymptotic behavior of weighted power variations of fractional\nBrownian motion in Brownian time Z_t:= X_{Y_t}, t >= 0, where X is a fractional\nBrownian motion and Y is an independent Brownian motion.",
+    "pdf_url": "http://arxiv.org/pdf/1604.03157v2",
+    "published": "2016-04-11"
+  }
+}

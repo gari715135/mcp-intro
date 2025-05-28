@@ -1,0 +1,42 @@
+{
+  "2312.03788v1": {
+    "title": "SmoothQuant+: Accurate and Efficient 4-bit Post-Training WeightQuantization for LLM",
+    "authors": [
+      "Jiayi Pan",
+      "Chengcan Wang",
+      "Kaifu Zheng",
+      "Yangguang Li",
+      "Zhenyu Wang",
+      "Bin Feng"
+    ],
+    "summary": "Large language models (LLMs) have shown remarkable capabilities in various\ntasks. However their huge model size and the consequent demand for\ncomputational and memory resources also pose challenges to model deployment.\nCurrently, 4-bit post-training quantization (PTQ) has achieved some success in\nLLMs, reducing the memory footprint by approximately 75% compared to FP16\nmodels, albeit with some accuracy loss. In this paper, we propose SmoothQuant+,\nan accurate and efficient 4-bit weight-only PTQ that requires no additional\ntraining, which enables lossless in accuracy for LLMs for the first time. Based\non the fact that the loss of weight quantization is amplified by the activation\noutliers, SmoothQuant+ smoothes the activation outliers by channel before\nquantization, while adjusting the corresponding weights for mathematical\nequivalence, and then performs group-wise 4-bit weight quantization for linear\nlayers. We have integrated SmoothQuant+ into the vLLM framework, an advanced\nhigh-throughput inference engine specially developed for LLMs, and equipped it\nwith an efficient W4A16 CUDA kernels, so that vLLM can seamlessly support\nSmoothQuant+ 4-bit weight quantization. Our results show that, with\nSmoothQuant+, the Code Llama-34B model can be quantized and deployed on a A100\n40GB GPU, achieving lossless accuracy and a throughput increase of 1.9 to 4.0\ntimes compared to the FP16 model deployed on two A100 40GB GPUs. Moreover, the\nlatency per token is only 68% of the FP16 model deployed on two A100 40GB GPUs.\nThis is the state-of-the-art 4-bit weight quantization for LLMs as we know.",
+    "pdf_url": "http://arxiv.org/pdf/2312.03788v1",
+    "published": "2023-12-06"
+  },
+  "2411.09909v1": {
+    "title": "AMXFP4: Taming Activation Outliers with Asymmetric Microscaling Floating-Point for 4-bit LLM Inference",
+    "authors": [
+      "Janghwan Lee",
+      "Jiwoong Park",
+      "Jinseok Kim",
+      "Yongjik Kim",
+      "Jungju Oh",
+      "Jinwook Oh",
+      "Jungwook Choi"
+    ],
+    "summary": "Scaling Large Language Models (LLMs) with extended context lengths has\nincreased the need for efficient low-bit quantization to manage their\nsubstantial computational demands. However, reducing precision to 4 bits\nfrequently degrades performance due to activation outliers. To address this, we\npropose Asymmetric Microscaling 4-bit Floating-Point (AMXFP4) for efficient LLM\ninference. This novel data format leverages asymmetric shared scales to\nmitigate outliers while naturally capturing the asymmetry introduced by\ngroup-wise quantization. Unlike conventional 4-bit quantization methods that\nrely on data rotation and costly calibration, AMXFP4 uses asymmetric shared\nscales for direct 4-bit casting, achieving near-ideal quantization accuracy\nacross various LLM tasks, including multi-turn conversations, long-context\nreasoning, and visual question answering. Our AMXFP4 format significantly\noutperforms MXFP4 and other leading quantization techniques, enabling robust,\ncalibration-free 4-bit inference.",
+    "pdf_url": "http://arxiv.org/pdf/2411.09909v1",
+    "published": "2024-11-15"
+  },
+  "2211.16008v1": {
+    "title": "A Charge Domain P-8T SRAM Compute-In-Memory with Low-Cost DAC/ADC Operation for 4-bit Input Processing",
+    "authors": [
+      "Joonhyung Kim",
+      "Kyeongho Lee",
+      "Jongsun Park"
+    ],
+    "summary": "This paper presents a low cost PMOS-based 8T (P-8T) SRAM Compute-In-Memory\n(CIM) architecture that efficiently per-forms the multiply-accumulate (MAC)\noperations between 4-bit input activations and 8-bit weights. First, bit-line\n(BL) charge-sharing technique is employed to design the low-cost and reliable\ndigital-to-analog conversion of 4-bit input activations in the pro-posed SRAM\nCIM, where the charge domain analog computing provides variation tolerant and\nlinear MAC outputs. The 16 local arrays are also effectively exploited to\nimplement the analog mul-tiplication unit (AMU) that simultaneously produces 16\nmultipli-cation results between 4-bit input activations and 1-bit weights. For\nthe hardware cost reduction of analog-to-digital converter (ADC) without\nsacrificing DNN accuracy, hardware aware sys-tem simulations are performed to\ndecide the ADC bit-resolutions and the number of activated rows in the proposed\nCIM macro. In addition, for the ADC operation, the AMU-based reference col-umns\nare utilized for generating ADC reference voltages, with which low-cost 4-bit\ncoarse-fine flash ADC has been designed. The 256X80 P-8T SRAM CIM macro\nimplementation using 28nm CMOS process shows that the proposed CIM shows the\naccuracies of 91.46% and 66.67% with CIFAR-10 and CIFAR-100 dataset,\nrespectively, with the energy efficiency of 50.07-TOPS/W.",
+    "pdf_url": "http://arxiv.org/pdf/2211.16008v1",
+    "published": "2022-11-29"
+  }
+}
